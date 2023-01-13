@@ -1,5 +1,7 @@
 PROJECT TITLE: Modified Pacman (Fishman)
+
 VERSION or DATE: 2022 Jan
+
 AUTHORS: Jiaqi Tang, Katelyn Lam, Helen Lee
 
 
