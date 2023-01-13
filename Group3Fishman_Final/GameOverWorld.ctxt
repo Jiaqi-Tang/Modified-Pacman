@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GameOverWorld
+comment0.text=\r\n\ The\ screen\ shown\ when\ the\ player\ either\ runs\ out\ of\ time\ to\ play\ the\ level\ or\ is\ eaten\ by\ one\ of\ the\ enemy\ blobs\!\r\n\ Prints\ out\ "Game\ Over\!"\ and\ the\ player's\ score.\r\n\ Gives\ the\ user\ another\ chance\ to\ either\ look\ at\ the\ instructions\ again\ or\ pick\ another\ level\ to\ play\ from.\r\n\ \r\n\ @author\ Helen\ Lee\ \r\n\ @version\ 2022\ Jan\r\n
+comment1.params=score
+comment1.target=GameOverWorld(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameOverWorld.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ score\ player's\ score\ to\ print\ out\ for\ them\ at\ the\ end\ of\ the\ game\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ Method\ for\ WelcomeWorld.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee\ </p>\r\n
+comment3.params=width\ height
+comment3.target=greenfoot.GreenfootImage\ drawEndScreen(int,\ int)
+comment3.text=\r\n\ Draws\ the\ end\ screen.\ \r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ width\ \ width\ of\ the\ image\r\n\ @param\ height\ height\ of\ the\ image\r\n
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PickLevelsWorld
+comment0.text=\r\n\ Lets\ the\ player\ pick\ the\ level\ they\ want\ to\ play\!\ \r\n\ The\ default\ level\ is\ level\ 1\ and\ the\ other\ levels\ are\ unlocked\ as\ the\ player\ passes\ the\ previous\ level.\r\n\ \r\n\ @author\ Helen\ Lee\r\n\ @version\ 2022\ Jan\r\n
+comment1.params=
+comment1.target=PickLevelsWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PickLevelsWorld.\r\n\ Declares\ variables\ and\ adds\ the\ objects.\ All\ the\ buttons\ for\ each\ level\ is\ added\ here.\r\n\ Level\ Buttons\:\ Turquoise\ represents\ unlocked\ levels\ and\ grey\ represents\ locked\ levels.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ Method\ for\ PickLevelsWorld.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n
+comment3.params=
+comment3.target=int[]\ initLevel()
+comment3.text=\r\n\ Initializes\ the\ level\ (which\ is\ the\ last\ level\r\n\ the\ user\ unlocked)\ and\ high\ score\r\n\ @return\ int[]\ -\ array\ of\ the\ form\ {level,\ highscore}\r\n\ <p>Author\:\ Katelyn\ Lam</p>\r\n
+comment4.params=
+comment4.target=int\ highestUnlockedLevel()
+comment4.text=\r\n\ Returns\ the\ highest\ level\ unlocked.\ \r\n
+numComments=5

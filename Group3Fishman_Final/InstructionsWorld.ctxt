@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InstructionsWorld
+comment0.text=\r\n\ The\ screen\ where\ the\ player\ can\ find\ all\ the\ necessary\ instructions\ for\ playing\ the\ game.\r\n\ Everything\ from\ the\ rules\ of\ the\ game\ and\ the\ how-tos\ of\ the\ game\ can\ be\ found\ here.\r\n\ Related\ graphics\ are\ shown\ here\ to\ help\ the\ player\ understand\ the\ game\ better.\r\n\ Instructions\ were\ created\ with\ Paint.\r\n\ \r\n\ @author\ Helen\ Lee\r\n\ @version\ 2022\ Jan\r\n
+comment1.params=maze\ gameStarted\ musicPlaying
+comment1.target=InstructionsWorld(Maze,\ boolean,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ InstructionsWorld.\r\n\ This\ constructor\ is\ used\ when\ the\ game\ has\ already\ started\ and\ the\ player\ is\ already\ in\ a\ maze,\ \r\n\ but\ is\ looking\ for\ a\ reminder\ of\ the\ instructions.\ This\ way,\ the\ player\ can\ save\ the\ current\ progress\ of\ their\ game,\r\n\ go\ to\ the\ instructions,\ and\ return\ to\ the\ game\ like\ nothing\ happened.\ \r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ maze\ \ \ \ \ \ \ \ the\ current\ maze\ the\ player\ is\ in\r\n\ @param\ gameStarted\ boolean\ to\ see\ if\ the\ game\ has\ started\ yet\ \r\n\ \r\n
+comment2.params=gameStarted
+comment2.target=InstructionsWorld(boolean)
+comment2.text=\r\n\ Another\ constructor\ for\ the\ objects\ of\ class\ InstructionsWorld.\ \r\n\ This\ constructor\ is\ used\ when\ the\ game\ has\ not\ started\ yet.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ gameStarted\ boolean\ to\ see\ if\ the\ game\ has\ started\ yet\r\n\ \r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ Method\ for\ InstructionsWorld.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n
+numComments=4

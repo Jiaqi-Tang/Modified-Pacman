@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RegenerationBar
+comment0.text=\r\n\ An\ image\ in\ <code>Maze</code>\ that\ defines\ the\ home\ base\ of\ the\ blobs.\ When\ the\ blobs\ come\ in\ contact\ with\ it\r\n\ they\ can\ regenerate.\ The\ bar\ is\ designed\ to\ center\ itself\ according\ to\ the\ width\ of\ the\ home\ base.\r\n\ \r\n\ @Katelyn\ Lam\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=numSquares
+comment1.target=RegenerationBar(int)
+comment1.text=\r\n\ Creates\ a\ regeneration\ bar\ for\ the\ blobs\ that\ will\ be\ placed\ over\ their\ home\ base.\r\n\ @param\ numSquares\ the\ number\ of\ squares\ (wide)\ that\ makes\ up\ the\ home\ base\r\n
+comment2.params=
+comment2.target=int\ getWidth()
+comment2.text=\r\n\ Gets\ width\ of\ the\ regeneration\ bar\r\n\ @return\ int\ -\ width\ of\ regeneration\ bar\r\n
+numComments=3

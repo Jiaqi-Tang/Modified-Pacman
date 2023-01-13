@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Buttons\ can\ be\ clickable\ or\ not\ clickable.\ \r\n\ Some\ of\ the\ buttons\ can\ be\ represented\ with\ a\ picture\ and\ some\ can\ be\ given\ parameters\ to\ draw\ a\ button\ out.\r\n\ These\ buttons\ help\ facilitate\ the\ game\ and\ the\ player\ can\ use\ them\ to\ move\ from\ one\ section\ (of\ the\ game)\ to\ another.\r\n\ \r\n\ @author\ Helen\ Lee\r\n\ @version\ 2022\ Jan\r\n
+comment1.params=image
+comment1.target=Button(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ Button\ that\ user\ can\ use\ to\ specify\ their\ own\ image.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ image\ takes\ a\ String\ reference\ of\ an\ image\ object\ to\ use\ as\ the\ buttons\ representative\ image\r\n
+comment2.params=image\ image2
+comment2.target=Button(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ for\ Button\ that\ can\ set\ its\ own\ image\ and\ a\ replacing\ image\ for\ later\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ image\ \ takes\ a\ String\ reference\ of\ an\ image\ object\ to\ use\ as\ the\ buttons\ representative\ image\r\n\ @param\ image2\ takes\ a\ String\ reference\ of\ an\ image\ object\ to\ use\ as\ the\ buttons\ representative\ image\ for\ later\ use\r\n
+comment3.params=width\ height\ color
+comment3.target=Button(int,\ int,\ greenfoot.Color)
+comment3.text=\r\n\ Constructor\ for\ Button\ that\ can\ set\ its\ width,\ height\ and\ color\ of\ the\ rectangle\ box.\r\n\ NO\ option\ for\ the\ user\ to\ input\ an\ image.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ width\ \ width\ of\ the\ image\r\n\ @param\ height\ height\ of\ the\ image\r\n\ @param\ color\ \ color\ of\ the\ rectangle\ box\r\n
+comment4.params=text\ width\ textSize\ boxColor
+comment4.target=Button(java.lang.String,\ int,\ int,\ greenfoot.Color)
+comment4.text=\r\n\ Constructor\ for\ Button\ that\ can\ set\ a\ String,\ width,\ text\ size,\ and\ box\ color.\r\n\ The\ text\ is\ default\ written\ in\ black\ and\ the\ font\ is\ in\ Courier\ New.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ text\ \ \ \ \ the\ text\ user\ wants\ to\ use\ in\ the\ box\r\n\ @param\ width\ \ \ \ the\ width\ of\ the\ box\r\n\ @param\ textSize\ the\ size\ of\ the\ text\r\n\ @param\ boxColor\ color\ of\ the\ rectangle\ box\r\n\ \r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Act\ -\ do\ whatever\ the\ Button\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n\ Nothing\ in\ the\ Act\ method\ for\ this\ Actor.\r\n
+comment6.params=
+comment6.target=void\ clicked()
+comment6.text=\r\n\ Method\ to\ run\ if\ the\ Button\ object\ is\ clicked\ on,\ which\ replaces\ the\ current\ image\ with\ another\ image\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n
+comment7.params=
+comment7.target=boolean\ ifClicked()
+comment7.text=\r\n\ Method\ to\ get\ whether\ a\ switchable\ image\ button\ has\ been\ clicked.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @return\ boolean\ imageUsed\ true\ if\ the\ first\ image\ listed\ is\ used,\ false\ if\ it's\ the\ second\ image\r\n
+numComments=8

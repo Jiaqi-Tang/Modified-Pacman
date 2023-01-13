@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Crumb
+comment0.text=\r\n\ The\ crumbs\ that\ the\ player\ eats\ to\ gain\ points.\r\n\ \r\n\ @Katelyn\ Lam\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=index\ square
+comment1.target=Crumb(int,\ Square)
+comment1.text=\r\n\ Constructor\ -\ sets\ image\ of\ the\ crumb\ and\ number\ of\ points\ it\ is\ worth\r\n\ @param\ index\ the\ type\ of\ crumb.\ 0\ -\ regular,\ 1\ -\ special\ (makes\ the\ blobs\ edible),\ 2\ -\ cherries,\ 3\ -\ cake\ (freezes\ the\ blobs)\r\n\ @param\ Square\ the\ Square\ of\ the\ Maze\ the\ Crumb\ is\ located\r\n
+comment2.params=
+comment2.target=int\ getIndex()
+comment2.text=\r\n\ Gets\ the\ index\ that\ identifies\ the\ type\ of\ <code>Crumb</code>\ it\ is.\r\n\ @return\ int\ -\ an\ integer\ from\ \ 0\ -\ 3\ to\ identify\ the\ <code>Crumb</code>\r\n
+comment3.params=newIndex
+comment3.target=void\ changeCrumb(int)
+comment3.text=\r\n\ Changes\ the\ type\ of\ <code>Crumb</code>\ and\ its\ properties\ \r\n\ (image\ and\ number\ of\ points\ gained\ when\ eaten)\r\n
+comment4.params=
+comment4.target=void\ initializeProperties()
+comment4.text=\r\n\ Sets\ image\ and\ point\ values\ of\ the\ <code>Crumb</code>\r\n
+comment5.params=
+comment5.target=void\ addScore()
+comment5.text=\r\n\ Adds\ to\ the\ user's\ score\ when\ <code>Crumb</code>\ is\ eaten.\ Called\ by\ the\ <code>Player</code>\ class.\r\n
+numComments=6

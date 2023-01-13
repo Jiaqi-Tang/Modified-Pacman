@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WelcomeWorld
+comment0.text=\r\n\ The\ opening\ screen\ of\ the\ entire\ game.\ Lists\ the\ name\ of\ the\ game\ and\ allows\ the\ \r\n\ player\ the\ option\ of\ going\ straight\ to\ the\ game\ or\ going\ to\ the\ instructions.\r\n\ \r\n\ @author\ Helen\ Lee\r\n\ @version\ 2022\ Jan\r\n
+comment1.params=
+comment1.target=WelcomeWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WelcomeWorld.\r\n\ Draws\ the\ welcome\ screen\ and\ contains\ the\ buttons\ needed\ to\ go\ to\ other\ screens\ in\ the\ game.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ Method\ for\ WelcomeWorld.\r\n\ \r\n\ <p>Author\:\ Helen\ Lee\ </p>\r\n
+comment3.params=width\ height
+comment3.target=greenfoot.GreenfootImage\ drawTitleScreen(int,\ int)
+comment3.text=\r\n\ Draws\ the\ welcome\ screen.\ \r\n\ \r\n\ <p>Author\:\ Helen\ Lee</p>\r\n\ \r\n\ @param\ width\ \ width\ of\ the\ image\r\n\ @param\ height\ height\ of\ the\ image\r\n
+numComments=4
